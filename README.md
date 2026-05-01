@@ -6,7 +6,7 @@ AI-assisted workflow for converting Ohio Department of Natural Resources (ODNR) 
 
 This repository contains a single Google Colab notebook (`oilfield_brine_workflow_cleaned_public.ipynb`) that documents the full processing pipeline used in the study:
 
-> *From public records to public health access: An AI-assisted workflow for mapping oilfield brine surface application to support community engagement in Ohio.* 
+> *From state records to accessible public maps: An AI-assisted workflow for mapping oilfield brine surface application to support community engagement in Ohio* 
 
 The notebook is organized into modular stages, each controlled by a toggle in a `RUN_STEPS` dictionary so stages can be run independently during development or re-runs.
 
@@ -119,8 +119,7 @@ The first cell of the notebook installs everything needed. Core packages:
 
 Form 15 records are publicly available upon request from ODNR. A companion archive of the raw Form 15 PDFs used in this study (2010–2024) and the public-facing interactive map will be linked here once published:
 
-- Raw Form 15 PDF archive: *(link TBD)*
-- Public interactive map: *(link TBD)*
+- Public interactive map: *([Ohio Oilfield Brine Road Application Map (2010–2024)](https://experience.arcgis.com/experience/3558b0c3c67642b6971e44e54ba5f1b8))*
 
 ## Limitations
 
